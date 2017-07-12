@@ -1,0 +1,29 @@
+{
+  "name": "platrans",
+  "version": "0.1.0",
+  "description": "Traductor de palabras a un idioma inventado",
+  "main": "dist/src/platrans.js",
+  "scripts": {
+    "build": "babel src/platrans.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanludena/platrans.git"
+  },
+  "keywords": [
+    "traductor",
+    "idioma",
+    "inventado",
+    "J10",
+    "jonathanludena"
+  ],
+  "author": "Jonathan Ludeña <jonathanludenai@gmail.com> (https://twitter.com/jonathanludena)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
