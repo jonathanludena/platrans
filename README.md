@@ -21,11 +21,11 @@ npm install platrans
 ```
 import platrans from 'platrans'
 
-platzom("Programar") // Program
-platzom("Zorro") // Zorrope
-platzom("Zarpar") // Zarppe
-platzom("abecedario") // abece-dario
-platzom("sometemos") // SoMeTeMoS
+platrans("Programar") // Program
+platrans("Zorro") // Zorrope
+platrans("Zarpar") // Zarppe
+platrans("abecedario") // abece-dario
+platrans("sometemos") // SoMeTeMoS
 ```
 
 ## Créditos
